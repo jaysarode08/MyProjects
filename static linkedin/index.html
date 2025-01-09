@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="home-page" class="page">
+    <div class="user-details">
+      <div class="logo"><img src="logotestbook.png" alt=""></div>
+      <h2>Welcome to the Quiz App</h2>
+      <input type="text" id="name" placeholder="Enter your name">
+      <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+    <div class="category">
+      <button onclick="selectCategory('pipes')">Pipes and Cisterns</button>
+      <button onclick="selectCategory('probability')">Probability</button>
+      <button onclick="selectCategory('age')">Problems on Age</button>
+      <button onclick="selectCategory('profit')">Profit and Loss</button>
+    </div>
+  </div>
+
+  <div id="quiz-page" class="page">
+    <div class="quiz-header">
+      <div id="timer">Timer: 10:00</div>
+      <div id="score">Score: 0</div>
+    </div>
+    <div id="question-container"></div>
+    <button id="next-btn" onclick="nextQuestion()">Next Question</button>
+  </div>
+
+  <div id="result-page" class="page">
+    <h2>Quiz Result</h2>
+    <p id="participant-name"></p>
+    <p id="total-time"></p>
+    <p id="total-questions"></p>
+    <p id="attempted-questions"></p>
+    <p id="correct-questions"></p>
+    <p id="wrong-questions"></p>
+    <p id="score-percentage"></p>
+    <button onclick="startQuiz()">Start Again</button>
+    <button onclick="goToHomePage()">Go to Home</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

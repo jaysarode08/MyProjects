@@ -1,0 +1,107 @@
+/* Your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .page {
+    display: none;
+  }
+  
+  .user-details,
+  .category {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .category button {
+    margin: 10px;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .category button:hover {
+    background-color: #218838;
+  }
+  
+  .quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  #question-container {
+    margin-bottom: 20px;
+  }
+  
+  #next-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #next-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  #result-page {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+  }
+  
+  #result-page h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  #result-page p {
+    margin-bottom: 10px;
+  }
+  
