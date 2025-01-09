@@ -1,0 +1,42 @@
+/* url for icon changes and fonts changes f-link imported */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* footer main defined  */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(41, 63, 80);
+  color: white;
+  padding: 20px;
+  margin-top: 5rem; 
+}
+/* left side footer text behaviours  */
+.style-f .left-f-h1{
+  font-size: 1rem;
+  margin-left: 5rem;
+  color: rgb(100,136,128);
+  /* border: 0.1rem solid; */
+}
+/* right side container behaviours defined  */
+.f-link {
+  display: flex;  
+}
+
+/* right side header hyperf-link text f-link section */
+.f-link .home-f a , .f-link .speaker-f a, .f-link .schedule-f a, .f-link .venue-f a, .f-link .register-f a{
+  margin-right: 10px;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  /* border: 0.1rem solid red ; */
+}
+
+/* curser hover behaviour over a mouse hover in right section hyperf-link  */
+.f-link .home-f a:hover , .f-link .speaker-f a:hover, .f-link .schedule-f a:hover, .f-link .venue-f a:hover, .f-link .register-f a:hover{
+  color:white;
+  background-color:  rgb(100,136,128);
+  text-decoration: none;
+}

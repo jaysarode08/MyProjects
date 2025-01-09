@@ -1,0 +1,129 @@
+/* url for icon changes and fonts changes link imported */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+/* selecting/giving all HTML elements on the page changes  */
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 400
+}
+
+/* giving a body background color as per my understanding */
+body{
+    display: relative;
+    background-color:whitesmoke;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;   
+
+}
+
+/* defined a section container after a header */
+section{
+    /* border: 0.1rem solid red; */
+    padding: 1rem;
+    /* background-color:rgb(185,219,186); */
+    background: linear-gradient(to right, rgb(185,219,186), rgb(235,237,206));
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;    
+}
+/* ---------------------------------- */
+
+/* defined a container for text and buttoons  */
+.s-h-lower .lower-h2{
+    gap: 1rem;
+    /* border: 0.1rem solid red; */
+    margin: 0.1rem;
+    font-size: 2rem;
+    font-weight:500;
+    color :rgb(242, 133, 38);
+
+}
+/* h4 tag section behaviour defined  */
+.s-h-lower .lower-s-p{
+    /* border: 0.1rem solid red; */
+    color: grey;
+    padding:0.5rem;   
+}
+/* ------------------------ */
+/* h2 tag 1st section behaviours defined  */
+.s1-gd .l-h2{
+    color :rgb(89,135,128);
+    margin-top: 4rem;
+    padding-left: 12rem;
+    /* border: 0.2rem solid; */
+
+}
+/* h3 tag 1st section defined */
+.s1-gd .l-h3{
+    color: grey;
+    padding-left: 12rem;
+}
+.s1-gd .c-h3{
+    color: grey;
+    padding-left: 12rem;
+}
+.s1-gd .a-href{
+    margin-top: 1rem;
+    padding-left: 12rem;
+    font-size: 1.1rem;
+}
+/* hyperlink behaviours correction  */
+.s1-gd .a-href a{
+    text-decoration: none;
+    /* border: 0.1rem solid red; */
+    color :rgb(89,135,128);
+    
+}
+/* 1st map link list size setting */
+.map-container{
+    display: flex;
+    margin-top: -12rem;
+    width:600px ;
+    height:300px;
+    margin-left: 44rem;
+    /* border: 0.2rem solid red; */
+}
+/* -------------------------  */
+
+/* h2 tag 2st section behaviours defined  */
+.s2-gd .h2{
+    color :rgb(89,135,128);
+    margin-top: 8rem;
+    padding-left: 12rem;
+    /* border: 0.2rem solid; */
+
+}
+/* h3 tag 2st section defined */
+.s2-gd h3{
+    color: grey;
+    padding-left: 12rem;
+}
+.s2-gd .a1-href{
+    margin-top: 1rem;
+    padding-left: 12rem;
+    font-size: 1.1rem;
+}
+/* hyperlink behaviours correction  */
+.s2-gd .a1-href a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color :rgb(89,135,128);
+    
+}
+/* 2nd map link list size setting ajustment  */
+.map-container1{
+    display: flex;
+    margin-top: -11rem;
+    width:600px ;
+    height:300px;
+    margin-left: 44rem;
+    /* border: 0.2rem solid red; */
+}

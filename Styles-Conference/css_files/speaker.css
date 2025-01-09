@@ -1,0 +1,123 @@
+/* url for icon changes and fonts changes link imported */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* selecting/giving all HTML elements on the page changes  */
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 400
+}
+
+/* giving a body background color as per my understanding */
+body{
+    display: relative;
+    background-color:whitesmoke;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;   
+
+}
+
+/* defined a section container after a header */
+section{
+    /* border: 0.1rem solid red; */
+    padding: 1rem;
+    /* background-color:rgb(185,219,186); */
+    background: linear-gradient(to right, rgb(185,219,186), rgb(235,237,206));
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;    
+}
+/* ---------------------------------- */    
+/* defined a container for text and buttoons  */
+.sec-h .s-h2{
+    gap: 1rem;
+    /* border: 0.1rem solid red; */
+    margin: 0.1rem;
+    font-size: 2rem;
+    font-weight:500;
+    color :rgb(242, 133, 38);
+
+}
+/* h4 tag section behaviour defined  */
+.sec-h .s-p{
+    /* border: 0.1rem solid red; */
+    color: grey;
+    padding:0.5rem;   
+}
+/* ------------------------- */
+.grid{
+    display: relative;
+}
+/* conatainer behaviours defined how it should be looks in html  */
+.grid .s1 ,.grid .s2 ,.grid .s3 ,.grid .s4 ,.grid .s5 ,.grid .s6 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+/* left first conatiner section h2 tag defined */
+.left-1 h2 ,.left-2 h2 ,.left-3 h2 ,.left-4 h2 ,.left-5 h2 ,.left-6 h2{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color:rgb(89,135,128);
+}
+/* left first conatiner section h3 tag defined */
+.left-1 h3 ,.left-2 h3 ,.left-3 h3 ,.left-4 h3 ,.left-5 h3 ,.left-6 h3{
+    color: rgb(169,178,201);
+    font-size: 1rem;
+    margin-top: -0.4rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+/* left first conatiner section h3 tag 2nd (second time) defined */
+.left-1 .h3-c2 ,.left-2 .h3-c2 ,.left-3 .h3-c2 ,.left-4 .h3-c2 ,.left-5 .h3-c2 ,.left-6 .h3-c2{
+    color: rgb(169,178,201);
+    font-size: 1.2rem;
+    margin: 1rem;   
+}
+
+/* p tag behaviours defined in left container section */
+.left-1 p ,.left-2 p ,.left-3 p ,.left-4 p ,.left-5 p ,.left-6 p{
+    color: grey;
+    margin-left: 1rem;
+}
+
+/* --------------------------------------------------------- */
+
+/* all right side in second section img behaviours  */
+.grid img{
+    margin-bottom: -4rem;
+    margin-left: 6rem;
+    align-items: center;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+}
+/* right side container section defined  */
+.right-1 ,.right-2 ,.right-3 ,.right-4 ,.right-5 ,.right-6 {
+    padding-left: 2rem;
+    padding-right: 1rem;    
+    display: inline-block;
+    vertical-align: top;
+    width: 43%;
+    /* border: 0.1rem solid red; */
+    list-style-type: none;
+    align-items: center;
+}
+/* inner ul list box for img over */
+.right-1 .inner , .right-2 .inner , .right-3 .inner , .right-4 .inner , .right-5 .inner, .right-6 .inner{
+    border: 0.1rem solid grey;  
+    padding-top: 4rem;  
+    align-items: center;
+    text-align: center;
+} 
+
+/* list li style removed  */
+.right-1 li,.right-2 li,.right-3 li,.right-4 li,.right-5 li,.right-6 li{
+    list-style-type: none;    
+}

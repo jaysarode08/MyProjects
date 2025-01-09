@@ -1,0 +1,123 @@
+/* url for icon changes and fonts changes link imported */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* selecting/giving all HTML elements on the page changes  */
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 400
+}
+
+/* giving a body background color as per my understanding */
+body{
+    /* display: relative; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233,230,225);
+    width: 100%;
+    /* height: 100%; */
+    height: 100vh;
+    overflow-x: hidden;   
+}
+/* defined a section container after a header */
+section{
+    /* border: 0.1rem solid red; */
+    padding: 1rem;
+    background-color:rgb(41,63,80);
+    color: white;
+    text-align: center;
+    
+}
+/* defined a container for text and buttoons  */
+.lower-center-h .lower-h{
+    gap: 1rem;
+    /* border: 0.1rem solid red; */
+    margin: 0.1rem;
+    color :rgb(89,135,128);
+
+}
+/* h4 tag section behaviour defined  */
+.lower-center-h .lower-p{
+    /* border: 0.1rem solid red; */
+    padding:0.5rem;   
+}
+
+/* button behaviours in section */
+.lower-center-h button {
+    background-color:rgb(41,63,80);
+    color: white;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: solid 0.1 rem;
+    border: 0.1rem solid white;
+}
+/* hyperlink in button behaviours defined  */
+button a{
+    color: white;
+    font-size: 1.1rem;
+    padding: 2rem 2rem 2rem 2rem;
+    text-decoration: none;
+}
+/* background of button over a mouse behaviours in section tag */
+.lower-center-h button:hover{
+    background-color: white;
+    /* color:rgb(41,63,80); */
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+/* hyperlink hover defined as how it should behave  */
+button a:hover{
+    color:rgb(41,63,80);
+}
+
+/* main section divide as per front end view that will show as per this bases  */
+main{
+    display: flex;
+    gap: 2rem;
+    /* border: 0.1rem solid red;  */
+}
+/* container of inner start poistion defined  */
+.m-left{
+    padding-left: 2.5rem;
+}
+/* 1st section SPEAKERS container */
+.m-left .left-h-m{
+    padding: 0.4rem;
+    font-weight: bold;
+}
+.m-left .left-h4-m{
+    padding: 0.1rem;
+    font-size: 1.1rem;
+}
+.m-left img{
+    width: 20rem;
+}
+
+/* 2nd section schedule container  */
+.m-center .center-h3-m{
+    padding: 0.4rem;
+    font-weight: bold;
+}
+.m-center .center-h4-m{
+    padding: 0.1rem;
+    font-size: 1.1rem;
+}
+.m-center img{
+    width: 25rem;
+}
+
+/* 3nd section Venue container  */
+.m-right .right-h3-m{
+    padding: 0.4rem;
+    font-weight: bold;
+}
+.m-right .right-h4-m{
+    padding: 0.1rem;
+    font-size: 1.1rem;
+}
+.m-right img{
+    width: 20rem;
+}

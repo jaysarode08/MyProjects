@@ -1,0 +1,156 @@
+/* url for icon changes and fonts changes link imported */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* selecting/giving all HTML elements on the page changes  */
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 400
+}
+
+/* giving a body background color as per my understanding */
+body{
+    display: relative;
+    background-color:whitesmoke;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;   
+
+}
+
+/* defined a section container after a header */
+section{
+    /* border: 0.1rem solid red; */
+    padding: 1rem;
+    /* background-color:rgb(185,219,186); */
+    background: linear-gradient(to right, rgb(185,219,186), rgb(235,237,206));
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;    
+}
+/* ---------------------------------- */
+
+/* defined a container for text and buttoons  */
+.s-h-lower .lower-h2{
+    gap: 1rem;
+    /* border: 0.1rem solid red; */
+    margin: 0.1rem;
+    font-size: 2rem;
+    font-weight:500;
+    color :rgb(242, 133, 38);
+
+
+}
+/* h4 tag section behaviour defined  */
+.s-h-lower .lower-s-p{
+    /* border: 0.1rem solid red; */
+    color: grey;
+    padding:0.5rem;   
+}
+/* ---------------------------------- */
+/* defined container behaviours  */
+.m-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+/* left 1st section h2  */
+.left-main .left-m1 h2{
+    margin-top: 0.5rem;
+    color :rgb(89,135,128);
+   padding-left: 5rem;
+}
+/* h4 of 1st section container behaviours */
+.left-main .left-m1 h4{
+    color: rgb(169,178,185);
+    padding-left: 5rem;
+}
+/* P of 1st section container behaviours */
+.left-main .left-m1 p{
+    color:rgb(136,136,136);
+    padding-left: 5rem;
+}
+
+/* second section defined behaviours  */
+.left-m2 h2{
+    color :rgb(89,135,128);
+   padding-left: 5rem;
+   margin-top: 0.5rem;
+   font-size: 1.2rem;
+   /* border: 0.1rem solid red; */
+}
+/* h4 of 2st section container behaviours */
+.left-main .left-m2 h4{
+    color: rgb(169,178,185);
+    padding-left: 5rem;
+}
+/* li of 2st section container behaviours */
+.left-main .left-m2 li{
+    color:rgb(136,136,136);
+    padding-left: 5rem;
+    list-style-type: square;
+}
+/* ----------------------------------------- */
+
+/* right section container defined  */
+.right-main{
+    display: relative;
+    /* border: 0.2rem solid;  */
+    padding-left: 10rem;
+    height: 100%;
+}
+/* label defined how it should look in webpage  */
+.right-main h4 {
+    color :rgb(89,135,128);
+    /* border: 0.1rem solid; */
+    margin-top: 0.3rem;
+}
+/* right section container input defined  */
+.right-main input{
+    padding-left: 0.3rem;
+    color:rgb(136,136,136);
+    border-radius: 0.3rem;
+    padding-right: 2rem;
+    border: 0.1rem solid grey;
+}
+/* section of selection dropdown behaviours  */
+#drop-down{
+    border-radius: 0.3rem;   
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color:rgb(136,136,136);
+}
+/* comment textarea behaviours defined  */
+.comment textarea{
+    border-radius: 0.3rem;   
+    color: gray;
+    padding-top: 0.3rem;
+    padding-left: 0.7rem;
+}
+/* button behaviours defined  */
+.submit button{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    padding: 0.7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color:rgb(119,161,152);
+    color: white;
+    border: none;
+    border-radius: 0.3rem;  
+    font-size: 1rem;
+    cursor: pointer;
+}
+/* behaviours over a cursor pointing at a button  */
+.submit button:hover{
+    background-color:rgb(100,136,128);
+    color: white;
+    border: none;
+    border-radius: 0.3rem;  
+    font-size: 1rem;
+    cursor: pointer;
+}

@@ -1,0 +1,112 @@
+/* url for icon changes and fonts changes link imported */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* selecting/giving all HTML elements on the page changes  */
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 400
+}
+
+/* giving a body background color as per my understanding */
+body{
+    display: relative;
+    background-color:rgb(255,255,255);
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;   
+
+}
+
+/* defined a section container after a header */
+section{
+    /* border: 0.1rem solid red; */
+    padding: 1rem;
+    /* background-color:rgb(185,219,186); */
+    background: linear-gradient(to right, rgb(185,219,186), rgb(235,237,206));
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;    
+}
+/* ---------------------------------- */
+
+/* defined a container for text and buttoons  */
+.s-h-lower .lower-h2{
+    gap: 1rem;
+    /* border: 0.1rem solid red; */
+    margin: 0.1rem;
+    font-size: 2rem;
+    font-weight:500;
+    color :rgb(242, 133, 38);
+
+
+}
+/* h4 tag section behaviour defined  */
+.s-h-lower .lower-s-p{
+    /* border: 0.1rem solid red; */
+    color: grey;
+    padding:0.5rem;   
+}
+
+/* container of header table defined  */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    /* border: 0.2rem solid red; */
+  }
+  
+/* th  border and padding defined and how it should behave */
+  th {    
+    padding:0.6rem 2rem 0.5rem 1rem;
+    text-align: left;
+    /* background-color: white; */
+    font-weight: 500;
+    /* border-bottom: 1px solid rgb(63, 63, 77); */
+  }
+  /* th first section defined  */
+  .h-rows{
+    font-size: 1.5rem;
+    color :rgb(89,135,128);
+  }
+  /* th 2nd section defined  */
+  .l-r{
+    color: grey;
+  }
+  /* all td in table defined  */
+  td {    
+    padding-top: 0.8rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    color:rgb(169,178,185);
+    font-size:1rem;
+    margin-left: 10rem;
+    border-bottom: 1px solid rgb(141,141,141);
+    /* border: 0.1rem solid yellow; */
+  }
+  /* td time tah defined its behaviours  */
+  .time{
+    border: none;
+    padding-left: 5rem;
+  }
+/* td rows behaviours defined color and size */
+.rows{
+    color :rgb(89,135,128); 
+    font-size: 1.2rem;
+}
+/* td rows behaviours defined color and size td tag with h5 and break tag */
+.rows h5{
+    color: rgb(169,178,185);
+    font-size:1rem;
+}
+/* td rows behaviours defined color and size for h5 */
+  .topic {
+    font-weight: 400;
+}

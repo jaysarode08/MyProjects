@@ -1,0 +1,83 @@
+/* url for icon changes and fonts changes link imported */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* header navigation bar conatiner behaviour defined */
+.nav{
+    /* background-color: rgb(51,51,51); */
+    background-color:rgb(41,63,80);
+    position: flex;
+    width: 100%;
+}
+/* left section text behaviour working  */
+.nav-left .style-head{
+    margin-right: 19em;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    /* border: 0.5rem solid red; */
+    color: aliceblue;
+}
+
+/* left section text h tag hyperlink    behaviour  */
+.style-head .left-head-h1 a{
+    /* color: black; */
+    color: cornsilk;
+    text-decoration: none;
+}
+/* hover over a curser behaviors  */
+.style-head .left-head-h1 :hover{
+    color:  rgb(100,136,128);
+    cursor: pointer;
+}
+/*----------------- right container section layout -----------------*/
+.nav-right{
+    background-color:rgb(41,63,80);
+    /* background-color: green; */
+    display: grid;
+    margin-top: -6rem; /*making it left and right container behaviours in a same place*/
+    gap: 0.5rem;
+    
+}
+/* right container 1st section behaviours on header */
+.nav-right .ab-ref {
+    color: white;
+    display: flex;
+    margin: 0.1rem 1rem 0.1rem 1rem;
+    padding: 0.5rem;
+    /* border: 0.3rem solid white; */
+}
+
+/* right side 1st section h tag defining  */
+.ab-ref .ab-ref-h3{
+    /* color: white; */
+    color :rgb(242, 133, 38);
+
+    align-items: center;
+    text-align: center;
+    padding-left: 60rem;
+    font-size: 1.5rem;
+}
+/* for hyperlink container on right side all section of 2nd container  */
+.nav-right .link{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 60rem;
+}
+
+/* right side header hyperlink text link section */
+.link .home a , .link .speaker a, .link .schedule a, .link .venue a, .link .register a{
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    align-items: center;
+    font-weight: 500;
+    text-decoration: none;
+    /* border: 0.1rem solid red ; */
+}
+/* curser hover behaviour over a mouse hover in right section hyperlink  */
+.link .home a:hover , .link .speaker a:hover, .link .schedule a:hover, .link .venue a:hover, .link .register a:hover{
+    color:white;
+    background-color:  rgb(100,136,128);
+    text-decoration: none;
+}
